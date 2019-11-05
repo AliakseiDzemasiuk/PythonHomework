@@ -1,0 +1,4 @@
+When importing a module as a whole, all the code in it will be ran
+So import mod_c statement creates a variable named x with the value of 5
+which is later referred to from mod_b value that changes value of x to 42
+(note how mod_b refers not to global variable x that doesn't exist in this case,but to one in a module)
